@@ -10,7 +10,7 @@ This microservice lets users search for items in the app using keywords or filte
 
 ## 1. How to Programmatically REQUEST Data
 
-### 1.1 HTTP Method and Endpoint
+###  HTTP Method and Endpoint
 
 - **Method:** `GET`  
 - **Base URL (local development):**
