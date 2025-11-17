@@ -14,3 +14,17 @@ const SAMPLE_ITEMS = [
     lastUpdated: "2025-11-13T10:15:00Z"
   }
 ];
+
+// GET Request route for search
+app.get("/search", (req, res) => {
+  const {
+    keyword,
+    category = null,
+    location = null,
+    sort = "relevance",
+    page = "1",
+    pageSize = "10"
+  } = req.query;
+
+
+});
