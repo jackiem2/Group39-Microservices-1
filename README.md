@@ -1,5 +1,5 @@
 # Microservice #1 : Search Microserivce
-## Overview
+# Overview
 This microservice lets users search for items in the app using keywords or filters.
 
 **User Story**
@@ -80,7 +80,7 @@ ELSE:
     }
 
 ```
-# Installation & Running the Microservice
+## Installation & Running the Microservice
 -  Install Express
 
 Open your terminal inside the project folder and run:
@@ -99,5 +99,10 @@ Search Microservice running on http://localhost:5001
 ```
 ### Working Example URL
 
-You can test this microservice directly in your browser using this URL:
+You can test this microservice directly in your browser using this URL once you have it running:
 http://localhost:5001/search?keyword=gardening%20gloves
+
+## 3. UML Sequence Diagram – Search Microservice
+![UML Diagram](./UML-SEQUENCE.png)
+
+### Developed by Jacqueline Merlan
