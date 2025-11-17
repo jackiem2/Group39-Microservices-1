@@ -19,7 +19,7 @@ This microservice lets users search for items in the app using keywords or filte
 http://localhost:5001
 ```
 
-## Example for REQUESTING
+### Example for REQUESTING
 - SEND GET REQUEST TO `"Search Microservice"/search` WITH PARAMETERS:
  keyword = "gardening gloves"
  category = "tools"
