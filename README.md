@@ -68,7 +68,7 @@ READ DATA TYPE = JSON
 ELSE:
     SHOW "No results available"
 ```
-## Example JSON object
+### Example JSON object
 ```json
     {
       "id": "item-001",
