@@ -25,6 +25,10 @@ This JSON structure allows users to easily display results, check number of page
 
 ### Example JSON object
 
+- SEND GET REQUEST TO "Search Microservice"
+- WAIT FOR RESPONSE
+- RECEIVE matching results from the Search Microservice
+
 ```json
 {
   "keyword": "gardening gloves",
