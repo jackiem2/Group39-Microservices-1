@@ -20,8 +20,7 @@ http://localhost:5001
 ```
 
 ## Example for REQUESTING
-- SEND GET REQUEST TO "Search Microservice"/search
-WITH PARAMETERS:
+- SEND GET REQUEST TO `"Search Microservice"/search` WITH PARAMETERS:
  keyword = "gardening gloves"
  category = "tools"
  location = "Texas"
