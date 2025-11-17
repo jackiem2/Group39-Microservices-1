@@ -18,14 +18,17 @@ This microservice lets users search for items in the app using keywords or filte
 ```text
 http://localhost:5001
 ```
-## 2. How to Programmatically RECEIVE Data
 
-When another program sends a valid request to the Search Microservice, the service responds with a JSON object.  
-This JSON structure allows users to easily display results, check number of pages, and detect when no results exist.
+## Example for REQUESTING
+- SEND GET REQUEST TO "Search Microservice"/search
+WITH PARAMETERS:
+ keyword = "gardening gloves"
+ category = "tools"
+ location = "Texas"
+ sort = "relevance"
+ page = 1
+ pageSize = 10
 
-### Example JSON object
-
-- SEND GET REQUEST TO "Search Microservice"
 - WAIT FOR RESPONSE
 - RECEIVE matching results from the Search Microservice
 
@@ -39,7 +42,35 @@ This JSON structure allows users to easily display results, check number of page
   "pageSize": 10,
   "totalResults": 24,
   "hasMore": true,
-  "items": [
+  "items": 
+}
+```
+
+## 2. How to Programmatically RECEIVE Data
+
+When another program sends a valid request to the Search Microservice, the service responds with a JSON object.  
+This JSON structure allows users to easily display results, check number of pages, and detect when no results exist.
+
+
+
+### Example for RECEIVING
+
+- GET REQUEST WAS SENT TO "Search Microservice"
+- WAIT FOR RESPONSE
+
+``` text
+IF response received:
+READ DATA TYPE = JSON
+    DISPLAY:
+      list of items
+      total number of results
+      page number
+      if more pages exist
+ELSE:
+    SHOW "No results available"
+```
+## Example JSON object
+```json
     {
       "id": "item-001",
       "title": "Gardening Gloves",
@@ -48,6 +79,5 @@ This JSON structure allows users to easily display results, check number of page
       "description": "Gardening gloves for gardening.",
       "lastUpdated": "2025-11-13T10:15:00Z"
     }
-  ]
-}
+
 ```
