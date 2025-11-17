@@ -81,14 +81,14 @@ ELSE:
 
 ```
 # Installation & Running the Microservice
-1. Install Express
+-  Install Express
 
 Open your terminal inside the project folder and run:
 ```text
 npm install express
 ```
 
-2. Start the Microservice
+-  Start the Microservice
 Once Express is installed, start the server with:
 ```text
 npm start
