@@ -1,0 +1,23 @@
+{
+  "name": "group39-microservices-1",
+  "version": "1.0.0",
+  "description": "This microservice lets users search for items in the app using keywords or filters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackiem2/Group39-Microservices-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackiem2/Group39-Microservices-1/issues"
+  },
+  "homepage": "https://github.com/jackiem2/Group39-Microservices-1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
