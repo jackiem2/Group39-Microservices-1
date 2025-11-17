@@ -21,7 +21,7 @@ http://localhost:5001
 ## 2. How to Programmatically RECEIVE Data
 
 When another program sends a valid request to the Search Microservice, the service responds with a JSON object.  
-This JSON structure allows clients to easily display results, check number of pages, and detect when no results exist.
+This JSON structure allows users to easily display results, check number of pages, and detect when no results exist.
 
 ### Example JSON object
 
