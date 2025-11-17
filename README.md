@@ -80,3 +80,24 @@ ELSE:
     }
 
 ```
+# Installation & Running the Microservice
+1. Install Express
+
+Open your terminal inside the project folder and run:
+```text
+npm install express
+```
+
+2. Start the Microservice
+Once Express is installed, start the server with:
+```text
+npm start
+```
+If everything is working, you will see:
+```text
+Search Microservice running on http://localhost:5001
+```
+### Working Example URL
+
+You can test this microservice directly in your browser using this URL:
+http://localhost:5001/search?keyword=gardening%20gloves
