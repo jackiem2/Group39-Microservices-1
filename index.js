@@ -16,6 +16,10 @@ const SAMPLE_ITEMS = [
 ];
 
 // GET Request route for search
+app.get("/", (req, res) => {
+  res.send("Search Microservice is running. Use /search to make a request.");
+});
+
 app.get("/search", (req, res) => {
 
   // Pull values from the query (keyword, filters, etc.)

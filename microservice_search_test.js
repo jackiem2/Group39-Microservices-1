@@ -36,7 +36,7 @@ fetch(url)
     }
   })
 
-  // Prints error msg if request fails
+  // Prints error msg if request
   .catch((error) => {
     console.error("Error calling Search Microservice:", error);
   });
